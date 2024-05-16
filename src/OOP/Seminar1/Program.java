@@ -8,14 +8,14 @@ public class Program {
         List<Product> products = new ArrayList<>();
         products.add(new BottleOfWater("BonAqua1",100,1));
         products.add(new BottleOfWater("BonAqua2",100,1));
-        products.add(new HotOfWater("BonAqua3",100,1,80));
+        products.add(new HotOfWater("Меркурий",100,1,80));
         products.add(new HotOfWater("BonAqua4",300,2,30));
 
 
 
         HotOfWatterVendingMachine hotOfWatterVendingMachine = new HotOfWatterVendingMachine(products);
 
-        System.out.println(hotOfWatterVendingMachine.getProduct("BonAqua3",1,80));
+        System.out.println(hotOfWatterVendingMachine.getProduct("Меркурий",1,80));
 
 
     }
