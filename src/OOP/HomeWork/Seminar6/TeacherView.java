@@ -1,9 +1,8 @@
-package OOP.HomeWork.Seminar4;
+package OOP.HomeWork.Seminar6;
 
-import java.util.ArrayList;
 import java.util.List;
 
-public class TeacherView<T extends User> {
+public class TeacherView<T extends User>  {
     private List<T> list;
 
     public void showTeachers(List<T> teachers) {

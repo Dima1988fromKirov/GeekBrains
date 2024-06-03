@@ -1,9 +1,6 @@
-package OOP.HomeWork.Seminar4;
-
-import OOP.Seminar3.Student;
+package OOP.HomeWork.Seminar6;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class TeacherGroupService {

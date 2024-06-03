@@ -1,5 +1,10 @@
-package OOP.HomeWork.Seminar4;
+package OOP.HomeWork.Seminar6;
 
+/**
+
+ *  (Принцип подстановки Барбары Лисков) Класс выполняет те же функции что и родитель, например выводит
+ *  информацию о учителе.
+ */
 public class Teacher extends User {
     private final int id;
 

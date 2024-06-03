@@ -1,4 +1,4 @@
-package OOP.HomeWork.Seminar4;
+package OOP.HomeWork.Seminar6;
 
 public class User implements Comparable<User> {
     private String firstName;

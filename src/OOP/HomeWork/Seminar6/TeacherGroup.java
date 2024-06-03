@@ -1,4 +1,4 @@
-package OOP.HomeWork.Seminar4;
+package OOP.HomeWork.Seminar6;
 
 import java.util.List;
 
@@ -15,5 +15,12 @@ public class TeacherGroup {
 
     public void addTeacher(Teacher teacher){
         teachers.add(teacher);
+    }
+
+    @Override
+    public String toString() {
+        return "TeacherGroup{" +
+                "teachers=" + teachers +
+                '}';
     }
 }

@@ -1,7 +1,4 @@
-package OOP.HomeWork.Seminar4;
-
-import java.util.ArrayList;
-import java.util.List;
+package OOP.HomeWork.Seminar6;
 
 /**
  * — Создать класс УчительСервис и реализовать аналогично проделанному на семинаре;
@@ -14,20 +11,23 @@ public class Program {
     public static void main(String[] args) {
         TeacherController teacherController = new TeacherController();
         teacherController.create("Алексеев", "Дмитрий", "Валерьевич");
-        teacherController.create("Эксюзян", "Сурен", "Арутович");
-        teacherController.create("Демидов", "Виталий", "Витальевич");
-        teacherController.create("Демидов", "Антон", "Григорьевич");
-        teacherController.create("Носков", "Виталий", "Владимирович");
-        teacherController.create("Атаносян", "Сурен", "Арутович");
-
+        teacherController.create("1","2","3");
+        teacherController.create("1e","2e","3e");
+        teacherController.create("1rr","2rr","3rr");
+        teacherController.editFirstName(2,"Виталик");
+        teacherController.editSecondName(2,"Виталик2");
         teacherController.printTeachersList();
 
-        teacherController.EditFirstName(0,"Смертин");
-        teacherController.EditSecondName(0,"Александр");
 
-        System.out.println();
 
-        teacherController.sort();
+//        teacherController.printTeachersList();
+//
+//        teacherController.EditFirstName(0,"Смертин");
+//        teacherController.EditSecondName(0,"Александр");
+//
+//        System.out.println();
+//
+//        teacherController.sort();
 
         System.out.println();
 

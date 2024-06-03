@@ -1,4 +1,4 @@
-package OOP.HomeWork.Seminar4;
+package OOP.HomeWork.Seminar6;
 
 import java.util.Comparator;
 
