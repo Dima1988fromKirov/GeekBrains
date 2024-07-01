@@ -8,7 +8,7 @@ public class CheeseDecorator extends PizzaDecorator {
 
     @Override
     public String getDescription() {
-        return pizza.getDescription() + "добавили сыр";
+        return pizza.getDescription() + " + сыр";
     }
 
     public CheeseDecorator(Pizza pizza) {
